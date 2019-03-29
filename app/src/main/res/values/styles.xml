@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="Material.Drawable.Ripple">
+        <item name="rd_enable">true</item>
+        <item name="rd_inInterpolator">@android:anim/decelerate_interpolator</item>
+        <item name="rd_outInterpolator">@android:anim/decelerate_interpolator</item>
+        <item name="rd_maskType">rectangle</item>
+        <item name="rd_cornerRadius">2dp</item>
+        <item name="rd_padding">0dp</item>
+        <item name="rd_delayClick">none</item>
+    </style>
+    <style name="Material.Drawable.StartChat.Ripple.Touch" parent="Material.Drawable.Ripple">
+        <item name="rd_backgroundColor">@color/restrict_access_color</item>
+        <item name="rd_backgroundAnimDuration">200</item>
+        <item name="rd_maxRippleRadius">48dp</item>
+        <item name="rd_rippleColor">#19CCCCCC</item>
+        <item name="rd_rippleAnimDuration">300</item>
+        <item name="rd_rippleType">touch</item>
+    </style>
+    <style name="Material.Widget.StartChat" parent="Material.Drawable.StartChat.Ripple.Touch">
+        <item name="fab_radius">28dp</item>
+        <item name="fab_elevation">4dp</item>
+        <item name="fab_iconSize">24dp</item>
+        <item name="fab_interpolator">@android:anim/decelerate_interpolator</item>
+    </style>
+</resources>
