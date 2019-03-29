@@ -19,6 +19,16 @@ class ChatListActivity : AppCompatActivity() {
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
+
+        //TODO Entity 생성(방/친구/방목록/친구목록)
+        //TODO 채팅 리스트(Recycler View) 만들기
+        //TODO fab 버튼에 대화방 생성 기능 넣기
+        //TODO 대화방 Activity 만들기
+        //TODO 대화 참여자 목록 만들기 --Drawer Layout 사용
+        //TODO 대화방 내 친구 초대 기능, 퇴장 기능
+        //TODO 첨부파일 보내기 및 저장하기 기능
+        //TODO 프로필 사진 저장 및 노출 기능
+        //TODO 채팅방 삭제 기능
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
